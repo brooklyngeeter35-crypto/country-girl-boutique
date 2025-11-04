@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Country Girl Boutique</title>
+  <style>
+    body { font-family: "Georgia", serif; margin: 0; padding: 0; background:#ffeef5; color:#4a2e2a; }
+    header { background: linear-gradient(135deg, #ffb7d5, #ffa6c9); color:#4a2e2a; padding: 30px; text-align:center; border-bottom:8px solid #c48b5f; }
+    header h1 { font-size: 2.8rem; font-weight:bold; }
+    nav { margin-top:20px; }
+    nav a { margin: 0 15px; font-weight:bold; color:#4a2e2a; text-decoration:none; font-size:1.1rem; }
+    nav a:hover { text-decoration:underline; }
+
+    .container { width: 90%; max-width: 1100px; margin: 30px auto; }
+
+    .search-bar { margin-bottom:25px; text-align:center; }
+    .search-bar input {
+      padding:10px 15px; width:80%; max-width:400px;
+      border-radius:10px; border:2px solid #c48b5f;
+    }
+
+    .category-menu { display:flex; gap:15px; flex-wrap:wrap; margin-bottom:25px; }
+    .category-menu button {
+      padding:10px 20px; border-radius:20px;
+      background:#ffb7d5; border:2px solid #c48b5f;
+      color:#4a2e2a; font-weight:bold;
+      cursor:pointer;
+    }
+
+    h2 { font-size: 2rem; margin-bottom: 10px; }
+
+    .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:25px; }
+
+    .product { background:#fff5fa; padding:15px; border-radius:15px; box-shadow:0 4px 10px rgba(0,0,0,0.15); border:3px solid #c48b5f; }
+    .product img { width:100%; border-radius:12px; border:3px solid #e7bfa8; }
+    .product h3 { margin:10px 0; font-size:1.3rem; }
+    .product p { font-size:0.95rem; }
+    .product a {
+      display:inline-block; margin-top:10px; padding:10px 15px;
+      background:#ffb7d5; color:#4a2e2a; text-decoration:none;
+      border-radius:8px; font-weight:bold; border:2px solid #c48b5f;
+    }
+
+    footer { text-align:center; padding:20px; color:#4a2e2a; margin-top:30px; border-top:5px solid #c48b5f; }
+
+    .about, .contact { background:#fff; padding:25px; border-radius:15px; border:3px solid #c48b5f; box-shadow:0 4px 10px rgba(0,0,0,0.15); margin-top:40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Country Girl Boutique</h1>
+    <p>Pink • Rustic • Western Chic — Shop My Amazon Picks</p>
+    <nav>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container" id="shop">
+    <div class="search-bar">
+      <input type="text" placeholder="Search products..." />
+    </div>
+
+    <div class="category-menu">
+      <button>Clothes</button>
+      <button>Home Décor</button>
+      <button>Beauty</button>
+      <button>Western Gear</button>
+      <button>Boots</button>
+      <button>Accessories</button>
+    </div>
+
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+
+      <div class="product">
+        <img src="https://m.media-amazon.com/images/I/81qePMq4sAL._AC_UX679_.jpg" alt="Verdusa Western Boho Floral Dress" />
+        <h3>Verdusa Western Boho Floral Dress</h3>
+        <p>Floral boho country dress — plus size, flowy A-line with western chic. Perfect for everyday or barn-chic style.</p>
+        <a href="https://amzn.to/4hGTGd2" target="_blank">✨ View on Amazon</a>
+      </div>
+
+      <div class="product">
+        <img src="https://m.media-amazon.com/images/I/71UYjb3-vvL._AC_UX679_.jpg" alt="Women’s Mid‑Calf Western Cowboy Boots" />
+        <h3>Women’s Mid‑Calf Western Cowboy Boots</h3>
+        <p>Stylish country-girl mid-calf cowgirl boots — rustic charm meets everyday comfort.</p>
+        <a href="https://www.amazon.com/dp/B0C32Q7GH6?tag=kaylahazel202-20" target="_blank">✨ View on Amazon</a>
+      </div>
+
+      <div class="product">
+        <img src="https://m.media-amazon.com/images/I/61pBhZ0Zz8L._AC_UX679_.jpg" alt="Women’s Western Graphic Shirt Cowgirl V‑Neck" />
+        <h3>Women’s Western Graphic Shirt – Cowgirl V‑Neck</h3>
+        <p>Graphic cowgirl shirt with a western charm—women’s fit, perfect for your country-girl vibes.</p>
+        <a href="https://www.amazon.com/dp/B0FVM12XQN?tag=kaylahazel202-20" target="_blank">✨ View on Amazon</a>
+      </div>
+
+      <div class="product">
+        <img src="https://m.media-amazon.com/images/I/71GY-MvTrFL._AC_UX679_.jpg" alt="LEADO Western Cowgirl Hat Boots Frosted 16 oz Glass Tumbler" />
+        <h3>LEADO Western Cowgirl Hat & Boots Frosted 16 oz Glass Tumbler</h3>
+        <p>Frosted 16 oz glass cup with cowgirl boots, hat & sunflowers — “Forget the glass slippers this princess wears boots.” Great for iced coffee, smoothies or as a fun country-girl gift.</p>
+        <a href="https://www.amazon.com/dp/B0CJXJ7RP2?tag=kaylahazel202-20" target="_blank">✨ View on Amazon</a>
+      </div>
+
+      <div class="product">
+        <img src="https://m.media-amazon.com/images/I/71kO4mPkC3L._AC_UX679_.jpg" alt="Western Cowgirl Leather Handbag" />
+        <h3>Western Cowgirl Leather Handbag</h3>
+        <p>Stylish western cowgirl leather handbag — roomy, durable, and perfect for everyday or barn-chic outings.</p>
+        <a href="https://amzn.to/47BPRRV" target="_blank">✨ View on Amazon</a>
+      </div>
+
+      <div class="product">
+        <img src="https://m.media-amazon.com/images/I/71NmM2rj9AL._AC_UX679_.jpg" alt="Cowgirl Western Tassel Earrings" />
+        <h3>Cowgirl Western Tassel Earrings</h3>
+        <p>Elegant western-inspired tassel earrings — perfect for country-themed outfits or everyday chic style.</p>
+        <a href="https://amzn.to/43RMmFP" target="_blank">✨ View on Amazon</a>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container about" id="about">
+    <h2>About</h2>
+    <p>Welcome to Country Girl Boutique — your pink, rustic, western-chic Amazon storefront! I handpick my favorite items from clothes to décor so you can shop country style with ease.</p>
+  </div>
+
+  <div class="container contact" id="contact">
+    <h2>Contact</h2>
+    <p>Email: kayla@countrygirlboutique.com</p>
+    <p>Follow on Instagram: @countrygirlboutique</p>
+  </div>
+
+  <footer>
+    <p>© 2025 Country Girl Boutique | Amazon Affiliate Store</p>
+  </footer>
+</body>
+</html>
